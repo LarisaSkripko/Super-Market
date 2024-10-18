@@ -14,3 +14,12 @@ RewriteRule . /Super-Market/index.php [L]
 </IfModule>
 
 # END WordPress
+# BEGIN Simply Static
+# Директивы (строки) между `BEGIN Simply Static` и `END Simply Static`
+# созданы автоматически и подлежат изменению только через фильтры WordPress.
+# Сделанные вручную изменения между этими маркерами будут перезаписаны.
+<Files "/Applications/MAMP/htdocs/Super-Market/wp-content/uploads/simply-static/3ddbebd05762d721529c414d4007e300-debug.txt">
+require all denied
+require host localhost
+</Files>
+# END Simply Static
